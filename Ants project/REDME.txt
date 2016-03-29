@@ -1,0 +1,7 @@
+To run program you need to install Java SE 7 
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+In browser program format (in_browser_variant.html) tested and works in chrome, opera, firefox 
+
+The program is written in Intellij Idea
+http://www.jetbrains.com/idea/

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML style="overflow:hidden;" xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+    <meta name="keywords" content="Ants" />
+    <meta name="description" content="Ants" />
+    <title>Ants</title>
+
+    <script language="JavaScript">
+        window.onresize = function ()
+        {
+            var MyApplet = document.getElementById("Applet");
+            MyApplet.width = document.body.clientWidth;
+            MyApplet.height = window.innerHeight - MyApplet.offsetTop * 2;
+        }
+
+        window.onload = window.onresize;
+    </script>
+</HEAD>
+
+
+<BODY >
+    <APPLET id="Applet" CODE="Main.class" ARCHIVE="ants.jar" CODEBASE="." WIDTH=800 HEIGHT=400>
+
+    </APPLET>
+</BODY>
+</HTML>
